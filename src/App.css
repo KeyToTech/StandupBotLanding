@@ -1,0 +1,15 @@
+.App {
+  height: 1000px;
+  padding-top: 60px;
+  text-align: center;
+  background: url("./header-bg.jpg") no-repeat center top/cover;
+}
+
+
+
+.App-header {
+
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
