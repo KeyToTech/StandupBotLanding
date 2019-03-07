@@ -65,16 +65,13 @@
     margin-top: 130px;
     display: flex;
     flex-direction: row;
-    border: red solid;
 }
 
 .caption-container {
-    border: green solid;
     position: relative;
 }
 
 .caption {
-    border: black solid;
     height: 320px;
     width: 660px;
     display: flex;
@@ -82,17 +79,20 @@
     justify-content: space-between;
 }
 
-.firs-text {
-    margin: 0;
+.caption-tf {
+    width: 250px;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     color: rgb(74, 74, 74);
     text-transform: uppercase;
+    background: linear-gradient(to right, #db683a, #b53d72, #8a2795);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin: 0;
 }
 
-.caption h1 {
+.caption-tt {
     width: 650px;
-    margin: 0;
     font-size: 60px;
     font-family: "Poppins";
     color: rgb(74, 74, 74);
@@ -100,37 +100,34 @@
     -moz-transform: matrix( 0.99999954709474,-0.00101170316276,0.00101162946024,1.00007213578337,0,0);
     -webkit-transform: matrix( 0.99999954709474,-0.00101170316276,0.00101162946024,1.00007213578337,0,0);
     -ms-transform: matrix( 0.99999954709474,-0.00101170316276,0.00101162946024,1.00007213578337,0,0);
+    margin: 0;
 }
 
-.made-text {
-    margin: 0;
+.caption-tm {
     width: 500px;
     font-size: 30px;
     font-family: 'Lato', sans-serif;
     color: rgb(117, 117, 117);
+    margin: 0;
 }
 
 .caption-img-container {
-    border: blue solid;
     width: 500px;
 }
 
 .button-caption {
+    position: absolute;
+    bottom: 7px;
+    padding: 30px 60px; 
     border-radius: 5px;
+    font-size: 18px;
+    font-family: "Poppins"; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    -moz-transform: matrix( 0.99999948830271,-0.00101170310328,0.00101162953557,1.00007221024935,0,0);
+    -webkit-transform: matrix( 0.99999948830271,-0.00101170310328,0.00101162953557,1.00007221024935,0,0);
+    -ms-transform: matrix( 0.99999948830271,-0.00101170310328,0.00101162953557,1.00007221024935,0,0);
     background-image: -moz-linear-gradient( 180deg, rgb(138,39,149) 0%, rgb(181,61,114) 51%, rgb(219,104,58) 99%);
     background-image: -webkit-linear-gradient( 180deg, rgb(138,39,149) 0%, rgb(181,61,114) 51%, rgb(219,104,58) 99%);
     background-image: -ms-linear-gradient( 180deg, rgb(138,39,149) 0%, rgb(181,61,114) 51%, rgb(219,104,58) 99%);
- 
-        font-size: 18px;
-        font-family: "Poppins";
-        color: rgb(255, 255, 255);
-        font-weight: bold;
-      
-        -moz-transform: matrix( 0.99999948830271,-0.00101170310328,0.00101162953557,1.00007221024935,0,0);
-        -webkit-transform: matrix( 0.99999948830271,-0.00101170310328,0.00101162953557,1.00007221024935,0,0);
-        -ms-transform: matrix( 0.99999948830271,-0.00101170310328,0.00101162953557,1.00007221024935,0,0);
-
-      padding: 30px 60px;
-      position: absolute;
-      bottom: 7px;
 }

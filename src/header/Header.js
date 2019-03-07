@@ -30,9 +30,9 @@ class Header extends Component {
                 <div className="banner">
                     <div className="caption-container">
                         <div className="caption">
-                            <div className="firs-text">Firs ever amazing thing</div>
-                            <h1>The app that build for your manegment</h1>
-                            <div className="made-text">Made for your everyday work without update&costing</div>
+                            <div className="caption-tf">Firs ever amazing thing</div>
+                            <h1 className="caption-tt">The app that build for your manegment</h1>
+                            <div className="caption-tm">Made for your everyday work without update&costing</div>
                         </div>
                         <a className="button-caption">Get Started For Free</a>
                     </div>
