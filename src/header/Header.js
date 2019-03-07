@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../header/header.css';
-import logo from '../image/logo.png';
+import logo from '../image/header/logo.png';
+import imgHeader from '../image/header/img.png';
 
 
 class Header extends Component {
@@ -13,7 +14,7 @@ class Header extends Component {
                             <img src={logo} alt="logo" />
                         </div>
                         <div className="menu-container">
-                            <nav>
+                            <nav className="nav-container">
                                 <ul className="menu">
                                     <li className="menu-items"><a href="#">Home</a></li>
                                     <li className="menu-items"><a href="#">Features</a></li>
@@ -24,6 +25,19 @@ class Header extends Component {
                                 </ul>
                             </nav>
                         </div>
+                    </div>
+                </div>
+                <div className="banner">
+                    <div className="caption-container">
+                        <div className="caption">
+                            <div className="firs-text">Firs ever amazing thing</div>
+                            <h1>The app that build for your manegment</h1>
+                            <div className="made-text">Made for your everyday work without update&costing</div>
+                        </div>
+                        <a className="button-caption">Get Started For Free</a>
+                    </div>
+                    <div className="caption-img-container">
+                        <img src={imgHeader} alt="img"/>
                     </div>
                 </div>
             </header>
