@@ -3,6 +3,26 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:700');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
+.menu-bar {
+    overflow: hidden;
+    height: 1064px;
+    position: relative;
+}
+
+.bg-first {
+    position: absolute;
+    left: 1075px;
+    bottom: 100px;
+    z-index: 1;
+}
+
+.bg-second {
+    position: absolute;
+    left: 600px;
+    bottom: -150px;
+    z-index: -1;
+}
+
 .container {
     display: flex;
     padding: 0 80px;
@@ -130,4 +150,18 @@
     background-image: -moz-linear-gradient( 180deg, rgb(138,39,149) 0%, rgb(181,61,114) 51%, rgb(219,104,58) 99%);
     background-image: -webkit-linear-gradient( 180deg, rgb(138,39,149) 0%, rgb(181,61,114) 51%, rgb(219,104,58) 99%);
     background-image: -ms-linear-gradient( 180deg, rgb(138,39,149) 0%, rgb(181,61,114) 51%, rgb(219,104,58) 99%);
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .bg-first {
+   
+        width: 1300px;
+        position: relative;
+    
+        left: 505px;
+        bottom: 500px;
+          
+    }
+
 }
