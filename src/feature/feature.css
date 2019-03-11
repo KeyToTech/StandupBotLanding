@@ -16,6 +16,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    text-align: center;
 }
 
 .col {
@@ -23,11 +24,29 @@
     width: 360px;
     border: green solid;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 67px 114px rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    
 }
 
 .icon {
     height: 100px;
     width: 100px;
     margin-top: 40px;
+}
+
+.col-t {
+    margin: 0;
+    margin-top: 40px;
+    color: #494949;
+    font-size: 24px;
+}
+
+.col-desc {
+    margin: 0;
+    margin-top: 25px;
+    color: #757575;
+    font-size: 16px;
 }
