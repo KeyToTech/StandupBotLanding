@@ -1,16 +1,14 @@
 .section-feature {
     z-index: 10;
-    height: 400px;
+    height: 550px;
     width: 1140px;
     margin: 0 auto;
-    border: green solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .wrap-col-items {
-    border: red solid;
     height: 345px;
     width: 100%;
     display: flex;
@@ -22,7 +20,6 @@
 .col {
     height: 343px;
     width: 360px;
-    border: green solid;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,14 +35,19 @@
 }
 
 .col-t {
-    margin: 0;
+    width: 245px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     margin-top: 40px;
     color: #494949;
     font-size: 24px;
+    line-height: 24px;
 }
 
 .col-desc {
-    margin: 0;
+    width: 245px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
     margin-top: 25px;
     color: #757575;
     font-size: 16px;
