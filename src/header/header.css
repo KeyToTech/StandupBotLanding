@@ -4,23 +4,30 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 .menu-bar {
-    overflow: hidden;
-    height: 1064px;
+    height: 870px;
     position: relative;
+}
+
+.background-header {
+    overflow: hidden;
+    position: absolute;
+    top: -65px;
+    left: 0;
+    height: 1200px;
+    width: 100%;
+    z-index: -10;
 }
 
 .bg-first {
     position: absolute;
     left: 1075px;
-    bottom: 100px;
-    z-index: -1;
+    bottom: 270px;
 }
 
 .bg-second {
     position: absolute;
     left: 600px;
-    bottom: -150px;
-    z-index: -10;
+    bottom: -20px;
 }
 
 .container {
