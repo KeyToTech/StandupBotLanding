@@ -22,4 +22,12 @@
     height: 343px;
     width: 360px;
     border: green solid;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
 }
