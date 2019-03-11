@@ -13,19 +13,21 @@
     position: absolute;
     left: 1075px;
     bottom: 100px;
-    z-index: 1;
+    z-index: -1;
 }
 
 .bg-second {
     position: absolute;
     left: 600px;
     bottom: -150px;
-    z-index: -1;
+    z-index: -10;
 }
 
 .container {
     display: flex;
+    margin-top: 65px; 
     padding: 0 80px;
+    z-index: 2;
 }
 
 .row {
@@ -85,6 +87,7 @@
     margin-top: 130px;
     display: flex;
     flex-direction: row;
+    z-index: 4;
 }
 
 .caption-container {
@@ -152,16 +155,4 @@
     background-image: -ms-linear-gradient( 180deg, rgb(138,39,149) 0%, rgb(181,61,114) 51%, rgb(219,104,58) 99%);
 }
 
-@media only screen and (max-width: 1300px) {
 
-    .bg-first {
-   
-        width: 1300px;
-        position: relative;
-    
-        left: 505px;
-        bottom: 500px;
-          
-    }
-
-}

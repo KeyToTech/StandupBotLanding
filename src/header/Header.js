@@ -3,6 +3,8 @@ import '../header/header.css';
 import logo from '../image/header/logo.png';
 import bg_first from '../image/header/bg.png';
 import bg_second from '../image/header/bg_second.png';
+import imgHeader from '../image/header/img.png';
+
 
 class Header extends Component {
     render() {
@@ -10,14 +12,11 @@ class Header extends Component {
             <header className="menu-bar">
 
                 <div className="background-header">
-
                      <img src={bg_first} alt="bg" className="bg-first" />
                      <img src={bg_second} alt="bg" className="bg-second" />
-
-
                 </div>
 
-                {/* <div className="container">
+                <div className="container">
                     <div className="row">
                         <div className="logo-container">
                             <img src={logo} alt="logo" />
@@ -48,7 +47,7 @@ class Header extends Component {
                     <div className="caption-img-container">
                         <img src={imgHeader} alt="img"/>
                     </div>
-                </div> */}
+                </div>
             </header>
         );
     }
