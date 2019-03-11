@@ -1,7 +1,6 @@
 .App {
-  height: 1000px;
-  padding-top: 60px;
-  background: url("./header-bg.jpg") no-repeat center top/cover;
+  height: 1000px; 
+ 
 }
 
 .App-header {
