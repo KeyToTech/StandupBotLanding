@@ -88,6 +88,18 @@
     font-weight: bold;
 }
 
+.active:hover {
+    border: 1px white solid;
+    background: white;
+    border-radius: 7px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #c8337e;
+    padding: 10px 35px;
+    font-family: 'Poppins' sans-serif;
+    font-weight: bold;
+}
+
 .banner {
     width: 1170px;
     margin: 0 auto;
@@ -147,6 +159,7 @@
 
 .button-caption {
     position: absolute;
+    text-decoration: none;
     bottom: 7px;
     padding: 30px 60px; 
     border-radius: 5px;
