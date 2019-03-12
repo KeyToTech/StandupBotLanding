@@ -1,6 +1,6 @@
 
 .sn-ab-ct {
-    height: 500px;
+    height: 650px;
     width: 1170px;
     margin: 0 auto;
     display: flex;
@@ -10,6 +10,7 @@
 
 .wrap-content-ct {
     height: 400px;
+    width: 450px;
     padding-left: 130px;
 }
 
@@ -28,7 +29,8 @@
     font-size: 16px;
     line-height: 30px;
     font-weight: 400;
-    margin-bottom: 90px;
+    margin-top: 44px;
+    margin-bottom: 60px;
 }
 
 .ct-button {

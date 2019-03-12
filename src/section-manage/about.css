@@ -1,20 +1,20 @@
 
 .sn-ab-mg {
-    border: red solid;
-    height: 500px;
+    height: 650px;
     width: 1170px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
-.wrap-content-ct {
+.wrap-content-mg {
     height: 400px;
-    padding-left: 130px;
+    width: 450px;
 }
 
-.ct-t {
+.mg-t {
     margin-top: 35px;
     font-family: 'Poppins', sans-serif;
     color: #494949;
@@ -23,16 +23,17 @@
     line-height: 54px;
 }
 
-.ct-desc {
+.mg-desc {
     font-family: 'Lato', sans-serif;
     color: #757575;  
     font-size: 16px;
     line-height: 30px;
     font-weight: 400;
-    margin-bottom: 90px;
+    margin-top: 44px;
+    margin-bottom: 60px;
 }
 
-.ct-button {
+.mg-button {
     text-decoration: none;
     padding: 30px 58px;
     border-radius: 5px;
