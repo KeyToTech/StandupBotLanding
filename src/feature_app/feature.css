@@ -1,3 +1,23 @@
 .feature-bar {
-    height: 500px;
+    border: red solid;
+    height: 970px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 1;
+}
+
+.background-feature {
+    position: absolute;
+    top: 0;
+    right: 100px;
+    z-index: -2;
+}
+
+.wrap-feature-app {
+    border: green solid;
+    height: 570px;
+    width: 1170px;
+    margin: 0 auto;
 }

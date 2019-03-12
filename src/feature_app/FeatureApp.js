@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../feature_app/feature.css';
+import bg from '../image/feature-app/bg-feature-app.png';
 
 const wrapContent = [
 
@@ -53,11 +54,13 @@ const col = wrapContent.map((table) =>
 
 const FeatureApp = () => (
     <div className="feature-bar">
-        <div className="background-feature"></div>
+        <div className="background-feature">
+            <img src={bg} className="bg" alt="bg" />
+        </div>
         <div className="wrap-feature-app">
             <div className="container-context-app">
                 <div className="tx-f-a">Why everybody choose this app</div>
-                <div className="desct-f-a">Innovative solutions with the best.  Incididunt dolor sit amet, 
+                <div className="desct-f-a">Innovative solutions with the best.  Incididunt dolor sit amet,
                 consectetur adipiscing elitsed tempor  vel metus scelerisque ante sollicitudin. </div>
             </div>
             <div className="container-features">
