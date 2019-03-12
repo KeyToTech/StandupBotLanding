@@ -1,5 +1,4 @@
 .feature-bar {
-    border: red solid;
     height: 970px;
     display: flex;
     flex-direction: column;
@@ -16,25 +15,23 @@
 }
 
 .wrap-feature-app {
-    border: green solid;
     height: 570px;
     width: 1170px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     text-align: center;
 }
 
 .container-context-app {
-    border: red solid;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .tx-f-a {
-    border: green solid;
     height: 91px;
     width: 500px;
     color: #494949;
@@ -45,54 +42,53 @@
 }
 
 .desct-f-a {
-    border: green solid;
-    width: 499px;
+    width: 550px;
     color: #757575;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 400;
     margin-top: 37px;
+    line-height: 30px;
 }
 
 .container-features {
-    border: red solid;
+    height: 310px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-content: space-between;
 }
 
 .col-app {
-    border: black solid;
     height: 130px;
     width: 340px;
     display: flex;
+    justify-content: space-between;
 }
 
 .img-fa {
     height: 60px;
     width: 60px;
-    border: red solid;
 }
 
 .container-ct-ca {
-    border: green solid;
-    width: 238px;
- 
+    margin-left: 20px;
+    text-align: left;
 }
 
 .col-tx-f {
-   border: yellow solid;
    font-family: 'Lato', sans-serif;
    color: #494949;
    font-size: 24px;
    font-weight: 900;
-   line-height: 42px;
+   margin: 0;
 }
 
 .col-desc-f {
-    border: black solid;
     font-size: 16px;
     color: #757575;
     font-weight: 400;
     font-family: 'Lato', sans-serif;
+    line-height: 30px;
+    margin-top: 23px;
 }
