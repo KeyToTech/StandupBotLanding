@@ -19,11 +19,13 @@ class Testimonial extends Component {
                         <img src={icons} className="icon-q" alt="icon" />
                     </div>
                     <div className="quote">
+                        They  provide innovative solutions with the best.
+                        Tempor incididunt utla bore et dolor  tempor incididunt.
                     </div>
-                 <div className="ar-quote">
-                 <div className="name"> </div>
-                 <div className="position"> </div>
-                 </div>
+                    <div className="ar-quote">
+                        <div className="name">Jonathon doe</div>
+                        <div className="position">Directer, art media</div>
+                    </div>
                 </div>
             </div>
         );
