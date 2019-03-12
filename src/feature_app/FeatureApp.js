@@ -11,8 +11,8 @@ const wrapContent = [
     },
 
     {
-        img: "Super Fast",
-        text: "",
+        img: "",
+        text: "Super Fast",
         description: "Innovative solutions with the best.  Incididunt dolor sit amet consec tetur adipiscing elit."
     },
 
