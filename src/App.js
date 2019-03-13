@@ -6,6 +6,7 @@ import AboutCt from './about-connect/About.js';
 import AboutMg from './section-manage/About.js';
 import FeatoreApp from './feature_app/FeatureApp.js';
 import Testimonial from './testimonial/Testimonial.js';
+import Video from './section-video/Video.js';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         <AboutMg />
         <FeatoreApp />
         <Testimonial />
+        <Video />
       </div>
     );
   }
