@@ -1,25 +1,41 @@
 .sn-v {
     border: red solid;
     height: 817px;
-    width: 1131px;
+    width: 1220px;
     margin: 0 auto;
     position: relative;
 }
 
 .bg-sn-v {
+    width: 1131px;
     position: absolute;
+    left: 50%;
+    margin-left: -565.5px; 
     z-index: -1;
 }
 
 .content-sn-v {
-
     border: green solid;
-    
-    
 }
 
 .img-v {
-     border: black solid;
+    border: black solid;
     z-index: 1;
-    padding: 0;
+    position: absolute;
+}
+
+.player-container {
+    border: red solid;
+}
+
+.bg-f-pl {
+
+}
+
+.bg-s-pl {
+
+}
+
+.icon-play {
+
 }
