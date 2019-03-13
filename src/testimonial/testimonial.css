@@ -1,6 +1,5 @@
 .section-testimonial {
-    border: red solid;
-    height: 450px;
+    height: auto;
     width: 1170px;
     margin: 0 auto;
     margin-top: 200px;
@@ -11,13 +10,20 @@
 }
 
 .thumbnails {
- 
-    border: red solid;
     height: 120px;
     width: 350px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+}
+
+.decor {
+    height: 44px;
+    width: 1px;
+    background: #494949;
+    margin-top: 22px;
+    margin-bottom: 30px;
 }
 
 .thumbnail {

@@ -14,6 +14,7 @@ class Testimonial extends Component {
                     <div className="thumbnail">
                     </div>
                 </div>
+                <div className="decor"></div>
                 <div className="quote-box">
                     <div className="icons">
                         <img src={icons} className="icon-q" alt="icon" />
