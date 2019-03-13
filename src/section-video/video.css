@@ -1,9 +1,9 @@
 .sn-v {
-    border: red solid;
     height: 817px;
     width: 1220px;
     margin: 0 auto;
     position: relative;
+    margin-top: 190px;
 }
 
 .bg-sn-v {
@@ -15,27 +15,42 @@
 }
 
 .content-sn-v {
-    border: green solid;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .img-v {
-    border: black solid;
     z-index: 1;
     position: absolute;
 }
 
 .player-container {
-    border: red solid;
+    height: 176px;
+    width: 176px;
+    z-index: 2;
 }
 
 .bg-f-pl {
-
+    position: absolute;
 }
 
 .bg-s-pl {
-
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -67.5px;
+    margin-left: -67.5px;
 }
 
 .icon-play {
-
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -13.5px;
+    margin-left: -12.5px;
 }
