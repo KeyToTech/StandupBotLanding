@@ -8,6 +8,7 @@ import FeatoreApp from './feature_app/FeatureApp.js';
 import Testimonial from './testimonial/Testimonial.js';
 import Video from './section-video/Video.js';
 import Pricing from './section-pricing/Pricing.js';
+import Team from './section-team/Team';
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
         <Testimonial />
         <Video />
         <Pricing />
+        <Team />
       </div>
     );
   }
