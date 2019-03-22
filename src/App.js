@@ -7,6 +7,7 @@ import AboutMg from './section-manage/About.js';
 import FeatoreApp from './feature_app/FeatureApp.js';
 import Testimonial from './testimonial/Testimonial.js';
 import Video from './section-video/Video.js';
+import Pricing from './section-pricing/Pricing.js';
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
         <FeatoreApp />
         <Testimonial />
         <Video />
+        <Pricing />
       </div>
     );
   }
