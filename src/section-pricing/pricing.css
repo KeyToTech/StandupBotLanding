@@ -1,5 +1,4 @@
-.section-pricing{
-    border: red solid;
+.section-pricing {
     height: 1170px;
     display: flex;
     flex-direction: column;
@@ -17,23 +16,24 @@
 }
 
 .wrap-pricing {
-    border: black solid;
     width: 945px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container-pricing {
-    border: green solid;
     height: 575px;
     width: 945px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
+    margin-top: 81px;
 }
 
 .table-pricing {
-    border: red solid;
     height: 497px;
     width: 362px;
     box-shadow: 0 67px 114px rgba(0, 0, 0, 0.08);
@@ -52,7 +52,19 @@
     width: 360px;
     box-shadow: 0 67px 114px rgba(0, 0, 0, 0.08);
     background-color: #ffffff;
-} 
+}
+
+.table-pricing:nth-child(2) .button-pricing {
+
+    
+    background-image: linear-gradient(to left, #a12299 0%, #d13a75 50%, #d23a74 51%, #f96834 99%, #f96834 100%);
+    color: white;
+
+}
+.table-pricing:nth-child(2) .button-pricing:hover {
+    background: white;
+    color: #d23a75;
+}
 
 .tx-p {
     color: #494949;
@@ -61,9 +73,11 @@
     font-weight: 700;
     line-height: 54px;
     text-align: center;
+    margin-bottom: 41px;
 }
 
 .desct-p {
+    width: 550px;
     text-align: center;
     color: #757575;
     font-family: 'Lato', sans-serif;
@@ -73,7 +87,6 @@
 }
 
 .wrap-price-list {
-    border: red solid;
     margin-top: 62px;
     color: #969696;
 }
@@ -88,7 +101,6 @@
 }
 
 .price-container {
-    border: red solid;
     display: flex;
     align-content: flex-end;
 }
@@ -122,7 +134,7 @@
 .account {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    line-height: 36px;
+    line-height: 36px;  
 }
 
 .button-pricing {

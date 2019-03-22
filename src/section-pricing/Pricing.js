@@ -36,7 +36,9 @@ const col = wrapContent.map((table) =>
     <div className="table-pricing">
         <div className="wrap-price-list">
             <div className="price-list">{table.pList}</div>
-            <div className="price-container"><div className="price">{table.price}</div>/Month</div>
+            <div className="price-container">
+               <div className="price">{table.price}</div>/Month
+            </div>
             <div className="space">{table.space}</div>
             <div className="support">{table.support}</div>
             <div className="color">{table.color}</div>
