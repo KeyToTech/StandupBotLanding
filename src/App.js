@@ -9,6 +9,7 @@ import Testimonial from './testimonial/Testimonial.js';
 import Video from './section-video/Video.js';
 import Pricing from './section-pricing/Pricing.js';
 import Team from './section-team/Team';
+import Footer from './footer/Footer.js';
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
         <Video />
         <Pricing />
         <Team />
+        <Footer />
       </div>
     );
   }
