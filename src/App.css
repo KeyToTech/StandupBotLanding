@@ -1,6 +1,7 @@
 .App {
-  height: 1200px; 
+
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .App-header {
