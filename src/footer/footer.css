@@ -83,6 +83,7 @@
     width: 180px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .title {
