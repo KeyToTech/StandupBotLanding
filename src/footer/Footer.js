@@ -1,7 +1,7 @@
 import React from 'react';
 import '../footer/footer.css';
-// import bgSecond from "";
-// import bgFirst from "";
+import bgSecond from "../image/footer/bg-footer-second.png";
+import bgFirst from "../image/footer/bg-footer.png";
 import logo from "../image/header/logo.png";
 
 const Button = (img, link) => (
@@ -13,8 +13,8 @@ const Button = (img, link) => (
 const Footer = () => (
     <div className="footer-section">
         <div className="bg-footer">
-            {/* <img src={bgSecond} alt="bg" className="footer-bg-second" />
-            <img src={bgFirst} alt="bg" className="footer-bg-first" /> */}
+            <img src={bgFirst} alt="bg" className="footer-bg-first" />
+            <img src={bgSecond} alt="bg" className="footer-bg-second" />
         </div>
 
         <div className="container-footer">
