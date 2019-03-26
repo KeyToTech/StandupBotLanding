@@ -1,0 +1,15 @@
+.section-contact {
+    height: 870px;
+    width: 1170px;
+    border: red solid;
+    margin: 0 auto;
+    position: relative;
+}
+
+.bg-contact {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -565px; 
+    z-index: -1;
+}
