@@ -5,9 +5,8 @@ import bgFirst from "../image/footer/bg-footer.png";
 import logo from "../image/header/logo.png";
 
 const Button = (img, link) => (
-    <div className="wrap-btn">
+   
         <a href="#" className="btn-social">{img}</a>
-    </div>
 );
 
 const features = [

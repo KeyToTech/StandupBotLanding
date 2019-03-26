@@ -32,7 +32,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    z-index: 2;
+    z-index: 5;
 }
 
 .container-social {
@@ -40,7 +40,6 @@
 }
 
 .wrap-social {
-    border: green solid;
     width: 210px;
     display: flex;
     justify-content: space-between;
@@ -57,21 +56,20 @@
     margin-top: 23px;
 }
 
-.wrap-btn {
-    height: 40px;
-    width: 40px;
-    border-radius: 20px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 51px 0px rgba(0, 0, 0, 0.1);
+.btn-social {
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
     text-align: center;
+    border-radius: 50%;
+    background: white;
+    color: rgb(74, 74, 74);
+    box-shadow: 0px 0px 51px 0px rgba(0, 0, 0, 0.1);
 }
 
-.btn-social {
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
-    background: linear-gradient(to right, #db683a, #b53d72, #8a2795);
-    color: rgb(74, 74, 74);
+.btn-social:hover {
+    background: rgb(74, 74, 74);
+    color: white;
 }
 
 .wrap-content-footer {
