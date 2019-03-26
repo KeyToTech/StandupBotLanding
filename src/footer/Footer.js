@@ -29,11 +29,11 @@ const Features = features.map((features) =>
     <div className="container-features">
         <div className="title">{features.title}</div>
         <div className="features-footer">
-            <div className="feature">{features.features[0]}</div>
-            <div className="feature">{features.features[1]}</div>
-            <div className="feature">{features.features[2]}</div>
-            <div className="feature">{features.features[3]}</div>
-            <div className="feature">{features.features[4]}</div>
+            <a className="feature" href="#">{features.features[0]}</a>
+            <a className="feature" href="#">{features.features[1]}</a>
+            <a className="feature" href="#">{features.features[2]}</a>
+            <a className="feature" href="#">{features.features[3]}</a>
+            <a className="feature" href="#">{features.features[4]}</a>
         </div>
     </div>
 );
