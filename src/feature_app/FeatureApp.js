@@ -69,7 +69,7 @@ const FeatureApp = () => (
                 <div className="desct-f-a">Innovative solutions with the best.  Incididunt dolor sit amet,
                 consectetur adipiscing elitsed tempor  vel metus scelerisque ante sollicitudin. </div>
             </div>
-            <div className="container-features">
+            <div className="container-features-choose">
                 {col}
             </div>
         </div>
