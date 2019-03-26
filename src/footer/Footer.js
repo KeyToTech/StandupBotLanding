@@ -10,6 +10,34 @@ const Button = (img, link) => (
     </div>
 );
 
+const features = [
+    {
+        title: "Useful Links",
+        features: ['Home', 'About us', 'Service', 'Blog', 'Contact']
+    },
+    {
+        title: "Need Help?",
+        features: ["FAQS", "Privacy", "Policy", "Support", "Terms"]
+    },
+    {
+        title: "Download",
+        features: ["For IOS", "For Android", "For Macos", "For windows", "For Mac tab"]
+    }
+]
+
+const Features = features.map((features) =>
+    <div className="container-features">
+        <div className="title">{features.title}</div>
+        <div className="features-footer">
+            <div className="feature">{features.features[0]}</div>
+            <div className="feature">{features.features[1]}</div>
+            <div className="feature">{features.features[2]}</div>
+            <div className="feature">{features.features[3]}</div>
+            <div className="feature">{features.features[4]}</div>
+        </div>
+    </div>
+);
+
 const Footer = () => (
     <div className="footer-section">
         <div className="bg-footer">
@@ -35,9 +63,7 @@ const Footer = () => (
             </div>
 
             <div className="wrap-content-footer">
-                <div className="useful"></div>
-                <div className="help"></div>
-                <div className="download"></div>
+                {Features}
             </div>
         </div>
     </div>

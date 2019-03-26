@@ -71,25 +71,22 @@
 
 }
 
-.useful {
+.container-features {
     border: green solid;
     height: 210px;
     width: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
 
 }
 
-.help {
-    border: black solid;
-    height: 210px;
-    width: 180px;
-
-
+.features-footer {
+    
 }
 
-.download {
-    border: blue solid;
-    height: 210px;
-    width: 180px;
-
+.feature {
 
 }
