@@ -1,0 +1,122 @@
+.footer-section {
+    overflow: hidden;
+    height: 390px;
+    background: #f3f7ff;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.bg-footer {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.footer-bg-first {
+    position: absolute;
+    top: -130px;
+    left: -950px;
+    z-index: 3;
+}
+
+.footer-bg-second {
+    position: absolute;
+    top: -370px;
+    left: -1050px;
+    z-index: 1;
+}
+
+.container-footer {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;
+}
+
+.container-social {
+    width: 310px;
+}
+
+.wrap-social {
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.develop-block h4 {
+    font-size: 14px;
+    font-family: "Lato";
+    color: rgb(117, 117, 117);
+    line-height: 1.714;
+    text-align: left;
+    margin: 0;
+    margin-top: 23px;
+}
+
+.btn-social {
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    background: white;
+    color: rgb(74, 74, 74);
+    box-shadow: 0px 0px 51px 0px rgba(0, 0, 0, 0.1);
+}
+
+.btn-social:hover {
+    background: rgb(74, 74, 74);
+    color: white;
+}
+
+.wrap-content-footer {
+    width: 765px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-features {
+    height: 210px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 16px;
+    font-family: "Poppins";
+    color: rgb(73, 73, 73);
+    font-weight: bold;
+    text-align: left;
+}
+
+.features-footer {
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.feature {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Lato";
+    color: rgb(117, 117, 117);
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.bg_ {
+  
+    position: absolute;
+    left: 555px;
+    top: 9442px;
+    width: 43px;
+    height: 42px;
+    z-index: 23;
+  }
+  
