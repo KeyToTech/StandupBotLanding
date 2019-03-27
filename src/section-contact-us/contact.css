@@ -3,6 +3,8 @@
     width: 1170px;
     margin: 0 auto;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .bg-contact {
