@@ -28,6 +28,7 @@
 }
 
 .container-footer {
+    border: red solid;
     width: 1170px;
     margin: 0 auto;
     display: flex;

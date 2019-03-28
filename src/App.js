@@ -10,6 +10,7 @@ import Video from './section-video/Video.js';
 import Pricing from './section-pricing/Pricing.js';
 import Team from './section-team/Team';
 import ContactUs from './section-contact-us/ContactUs';
+import Question from './question-section/Question';
 import Footer from './footer/Footer.js';
 
 class App extends Component {
@@ -26,6 +27,7 @@ class App extends Component {
         <Pricing />
         <Team />
         <ContactUs />
+        <Question />
         <Footer />
       </div>
     );

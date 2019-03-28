@@ -1,0 +1,12 @@
+.section-question {
+    height: 620px;
+    width: 1170px;
+    margin: 0 auto;
+    border: red solid;
+}
+
+.container-context-question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
