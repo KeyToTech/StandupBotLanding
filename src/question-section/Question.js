@@ -14,7 +14,9 @@ class Question extends Component {
                     </div>
                 </div>
                 <div className="wrapper-main-contain">
-                    <div className="collapse-container"></div>
+                    <div className="collapse-container">
+                    
+                    </div>
                     <div className="picture-cotainer-question">
                         <img src={image} alt="img" className="image-question" />
                     </div>
