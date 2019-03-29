@@ -17,7 +17,7 @@
     text-align: center;
 }
 
-.col {
+.col-item {
     height: 343px;
     width: 360px;
     display: flex;
