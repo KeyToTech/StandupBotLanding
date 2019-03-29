@@ -1,30 +1,38 @@
 import React, { Component } from 'react';
 import './question.css';
 import image from '../image/question/img.png';
-import { Alert } from 'react-bootstrap';
+import { Alert, Button, Collapse } from 'react-bootstrap';
 
 class Question extends Component {
 
-    constructor(props) {
-        super(props);
+    constructor(props, context) {
+        super(props, context);
+
         this.state = {
-            isCollapse: true
-        }
+            accordion: [true, false, false],
+            // { open: false },
+            // { open: false },
+
+        };
     }
 
-    changeIsCollapse() {
-        if (this.state.isCollapse == false) {
-            this.setState({
-                isCollapse: true
-            })
-        } else {
-            this.setState({
-                isCollapse: false
-            })
-        }
+    toggleAccordion(tab) {
+
+        const prevState = this.state.accordion;
+        const state = prevState.map((x, index) =>
+            tab === index ? !x : false
+        );
+
+        this.setState({
+            accordion: state,
+        });
     }
 
     render() {
+        const { open } = this.state;
+        // const { openel2 } = this.state.collapse[1].open;
+        // const { openel3 } = this.state.collapse[2].open;
+
         return (
             <div className="section-question">
                 <div className="container-context-question">
@@ -34,38 +42,71 @@ class Question extends Component {
                     </div>
                 </div>
                 <div className="wrapper-main-contain">
-                    <div className="collapse-wrapper">
+                    <div className="accordion">
                         <div className="collapse-container">
-                            <a className="ref-question" data-toggle="collapse" href="#hide"
-                            >
-                                <Alert variant="light" className="alert-btn">
-                                    <div className="question">How can i buy this landing?</div>
-                                    {this.state.isCollapse
-                                        ? <i class="fas fa-plus"></i>
-                                        : <i class="fas fa-minus"></i>}
-                                </Alert>
-                            </a>
-                            <div className="collapse" id="hide">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                            <Alert
+                                className="alert-btn"
+                                onClick={() => this.toggleAccordion(0)}
+                                aria-controls="headingOne"
+                                aria-expanded={open}>
+
+                                <div className="question">How can i buy this landing?</div>
+
+                                {this.state.accordion[0]
+                                    ? <i class="fas fa-plus"></i>
+                                    : <i class="fas fa-minus"></i>}
+                            </Alert>
+                            <Collapse in={this.state.accordion[0]} data-parent="#accordion" aria-labelledby="headingOne">
+                                <div id="example-collapse-text">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                                    terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+                                    labore wes anderson cred nesciunt sapiente ea proident.
+                                </div>
+                            </Collapse>
                         </div>
+
                         <div className="collapse-container">
-                            <a className="ref-question" data-toggle="collapse" href="#hide-two">
-                                <Alert variant="light" className="alert-btn">
-                                    <div className="question">How can i order this?</div>
-                                    <i class="fas fa-plus"></i>
-                                </Alert>
-                            </a>
-                            <div className="collapse" id="hide-two">Innovative solutions with the best.  Incididunt dolor sit amet,</div>
+                            <Alert
+                                className="alert-btn"
+                                onClick={() => this.toggleAccordion(1)}
+                                aria-controls="headingOne"
+                                aria-expanded={open}>
+
+                                <div className="question">How can i order this?</div>
+
+                                {this.state.accordion[1]
+                                    ? <i class="fas fa-plus"></i>
+                                    : <i class="fas fa-minus"></i>}
+                            </Alert>
+                            <Collapse in={this.state.accordion[1]} data-parent="#accordion" aria-labelledby="headingOne">
+                                <div id="example-collapse-text">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                                    terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+                                    labore wes anderson cred nesciunt sapiente ea proident.
+                                </div>
+                            </Collapse>
                         </div>
+
                         <div className="collapse-container">
-                            <a className="ref-question" data-toggle="collapse" href="#hide-three">
-                                <Alert variant="light" className="alert-btn"   >
-                                    <div className="question">Is it refunadable?</div>  <i class="fas fa-plus"></i>
-                                </Alert>
-                            </a>
-                            <div className="collapse" id="hide-three">Innovative solutions with the best.  Incididunt dolor sit amet,</div>
+                            <Alert
+                                className="alert-btn"
+                                onClick={() => this.toggleAccordion(2)}
+                                aria-controls="headingOne"
+                                aria-expanded={open}>
+
+                                <div className="question">Is it refunadable?</div>
+
+                                {this.state.accordion[2]
+                                    ? <i class="fas fa-plus"></i>
+                                    : <i class="fas fa-minus"></i>}
+                            </Alert>
+                            <Collapse in={this.state.accordion[2]} data-parent="#accordion" aria-labelledby="headingOne">
+                                <div id="example-collapse-text">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                                    terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+                                    labore wes anderson cred nesciunt sapiente ea proident.
+                                </div>
+                            </Collapse>
                         </div>
                     </div>
                     <div className="picture-cotainer-question">
