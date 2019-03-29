@@ -10,18 +10,18 @@ const Form = (props) => (
         <form>
             <div className="wrapper">
                 <div className="wrap-name">
-                    <div className="name">
+                    <div className="name-form">
                         <input
                             type="text"
-                            className=""
+                            className="input-name"
                             placeholder="Your name"
-                            name="Name"
+                            name="text"
                         ></input>
                     </div>
                     <div className="email">
                         <input
                             type="email"
-                            className=""
+                            className="input-email"
                             placeholder="Your email"
                             name="email"
                         ></input>

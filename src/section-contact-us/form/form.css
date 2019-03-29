@@ -21,9 +21,11 @@ form {
 }
 
 .wrap-name {
+    height: 50px;
     width: 600px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 input {
@@ -33,19 +35,28 @@ input {
     border-radius: 5px;
     background: #f4f4fd;
     border: none;
-    margin-bottom: 30px;
+   
+}
+
+.input-name {
+    width: 285px;
+}
+
+.input-email {
+    width: 285px;
 }
 
 .subject {
     outline: none;
-    width: 570px;
+    width: 600px;
 }
 
 .message {
     outline: none;
     border: none;
     height: 130px;
-    width: 570px;
+    width: 600px;
+    margin-top: 25px;
     margin-bottom: 30px;
     background: #f4f4fd;
     border-radius: 5px;
