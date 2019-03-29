@@ -143,7 +143,7 @@
     text-decoration: none;
     padding: 9px 50px;
     border-radius: 50px;
-    border: #d23a75 solid;
+    
     color: #d23a75;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
@@ -151,8 +151,13 @@
     line-height: 30px;
 }
 
-.button-pricing:hover {
+.button-pricing:nth-child(2) {
+    border: 1px #d23a75 solid;
+}
 
+.button-pricing:hover {
+    border: 1px #d23a75 solid;
     background-image: linear-gradient(to left, #a12299 0%, #d13a75 50%, #d23a74 51%, #f96834 99%, #f96834 100%);
     color: white;
+    text-decoration: none;
 }
