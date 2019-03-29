@@ -10,3 +10,12 @@
     flex-direction: column;
     align-items: center;
 }
+
+.wrapper-main-contain {
+    display: flex;
+}
+
+.collapse-container {
+    border: green solid;
+    width: 600px;
+}

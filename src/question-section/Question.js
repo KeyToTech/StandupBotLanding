@@ -15,7 +15,12 @@ class Question extends Component {
                 </div>
                 <div className="wrapper-main-contain">
                     <div className="collapse-container">
-                    
+                        <div className="panel panel-danger">
+                            <div className="panel-heading">
+                                <a data-toggle="collapse" href="#hide">Js Collapse</a>
+                            </div>
+                        </div>
+                        <div className="collapse" id="hide">nfjdsfmlsmdlfsld</div>
                     </div>
                     <div className="picture-cotainer-question">
                         <img src={image} alt="img" className="image-question" />
