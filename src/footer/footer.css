@@ -111,14 +111,8 @@
     margin: 0;
     padding: 0;
 }
-
-.bg_ {
   
-    position: absolute;
-    left: 555px;
-    top: 9442px;
-    width: 43px;
-    height: 42px;
-    z-index: 23;
-  }
-  
+.feature:hover {
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
