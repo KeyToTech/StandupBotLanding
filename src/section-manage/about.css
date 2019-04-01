@@ -44,3 +44,11 @@
     font-weight: 700;
     line-height: 30px;
 }
+
+.mg-button:hover {
+    text-decoration: none;
+    background: #ffffff;
+    color: #d13a75;
+    border: #d13a75 solid;
+ }
+ 

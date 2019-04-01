@@ -177,5 +177,7 @@
 
 .button-caption:hover {
     text-decoration: none;
-    color: white;
+    border: #b53d72 solid;
+    background: #ffffff;
+    color: #b53d72;
 }
