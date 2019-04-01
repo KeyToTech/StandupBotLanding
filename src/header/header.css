@@ -30,7 +30,7 @@
     bottom: -20px;
 }
 
-.container {
+.container-header-nav {
     display: flex;
     margin-top: 65px; 
     padding: 0 80px;
@@ -70,7 +70,7 @@
     padding: 0 20px;;
 }
 
-.menu-items a {
+.menu-items .item-nav {
     font-size: 16px;
     text-decoration: none;
     color: #ffffff;
@@ -102,8 +102,8 @@
 
 .banner {
     width: 1170px;
-    margin: 0 auto;
     margin-top: 130px;
+    margin-left: 300px;
     display: flex;
     flex-direction: row;
     z-index: 4;
@@ -175,4 +175,9 @@
     background-image: -ms-linear-gradient( 180deg, rgb(138,39,149) 0%, rgb(181,61,114) 51%, rgb(219,104,58) 99%);
 }
 
-
+.button-caption:hover {
+    text-decoration: none;
+    border: #b53d72 solid;
+    background: #ffffff;
+    color: #b53d72;
+}

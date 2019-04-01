@@ -10,21 +10,21 @@ class Header extends Component {
         return (
             <div className="section-feature">
                 <div className="wrap-col-items">
-                    <div className="col">
+                    <div className="col-item">
                         <img src={icon1} alt="icon" className="icon" />
                         <div className="col-t"> Fast & Optimized</div>
                         <div className="col-desc">
                             Consectetur adipiscing elit, sed do eiusmod tempor incididunt  tempor incididunt
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col-item">
                         <img src={icon2} alt="icon" className="icon" />
                         <div className="col-t">Clean Code</div>
                         <div className="col-desc">
                             Consectetur adipiscing elit, sed do eiusmod tempor incididunt  tempor incididunt
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col-item">
                         <img src={icon3} alt="icon" className="icon" />
                         <div className="col-t">Easy Optimsation</div>
                         <div className="col-desc">

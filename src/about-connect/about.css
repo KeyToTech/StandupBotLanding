@@ -10,11 +10,11 @@
 
 .wrap-content-ct {
     height: 400px;
-    width: 450px;
+    width: 570px;
     padding-left: 130px;
 }
 
-.ct-t {
+.ct-text {
     margin-top: 35px;
     font-family: 'Poppins', sans-serif;
     color: #494949;
@@ -43,5 +43,12 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 30px;
+}
+
+.ct-button:hover {
+   text-decoration: none;
+   background: #ffffff;
+   color: #d13a75;
+   border: #d13a75 solid;
 }
 

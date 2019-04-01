@@ -1,0 +1,87 @@
+.form-container {
+    height: 750px;
+    width: 945px;
+    z-index: 2;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0px 67px 114px 0px rgba(0, 0, 0, 0.08);
+    box-sizing: content-box;
+    /* padding: 60px 195px 60px 195px; */
+}
+
+.content-form {
+    margin-top: 40px;
+}
+
+form {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrap-name {
+    height: 50px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+input {
+    width: 260px;
+    padding: 20px 15px;
+    outline: none;
+    border-radius: 5px;
+    background: #f4f4fd;
+    border: none;
+   
+}
+
+.input-name {
+    width: 285px;
+}
+
+.input-email {
+    width: 285px;
+}
+
+.subject {
+    outline: none;
+    width: 600px;
+}
+
+.message {
+    outline: none;
+    border: none;
+    height: 130px;
+    width: 600px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    background: #f4f4fd;
+    border-radius: 5px;
+    padding: 20px 15px;
+    color: #848484;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+}
+
+.createAccount button {
+    background-image: -moz-linear-gradient( 180deg, rgb(161,34,153) 0%, rgb(210,58,116) 51%, rgb(249,104,52) 99%);
+    background-image: -webkit-linear-gradient( 180deg, rgb(161,34,153) 0%, rgb(210,58,116) 51%, rgb(249,104,52) 99%);
+    background-image: -ms-linear-gradient( 180deg, rgb(161,34,153) 0%, rgb(210,58,116) 51%, rgb(249,104,52) 99%);
+    width: 155px;
+    height: 51px;
+    color: #fff;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+
+.createAccount button:hover {
+    color: #d23a75;
+    background: white;
+    border: #d23a75 solid;
+
+}
+  
