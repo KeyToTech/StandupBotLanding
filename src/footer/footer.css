@@ -63,13 +63,14 @@
     text-align: center;
     border-radius: 50%;
     background: white;
-    color: rgb(74, 74, 74);
+    color: #d13a75;
     box-shadow: 0px 0px 51px 0px rgba(0, 0, 0, 0.1);
 }
 
 .btn-social:hover {
-    background: rgb(74, 74, 74);
-    color: white;
+    
+    background-image: linear-gradient(to left, #a12299 0%, #d13a75 50%, #d23a74 51%, #f96834 99%, #f96834 100%);
+    color: #ffffff;
 }
 
 .wrap-content-footer {
