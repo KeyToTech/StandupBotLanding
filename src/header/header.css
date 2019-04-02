@@ -103,18 +103,15 @@
     margin-right: 40px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     z-index: 4;
 }
 
 .caption-container {
     border: red solid;
     position: relative;
-    flex-basis: 430px;
 }
 
 .caption {
-    flex-grow: 1;
     height: 320px;
     width: 660px;
     display: flex;
@@ -156,11 +153,6 @@
 
 .caption-img-container {
     border: yellow solid;
-    flex-basis: 500px;
-}
-
-.caption-img-container img {
- 
 }
 
 .button-caption {
@@ -208,11 +200,6 @@
 
     .menu-items .item-nav {
         font-size: 12px;
-    }
-
-    .banner {
-        height: 450px;
-       
     }
 
     .caption-container {
@@ -297,26 +284,22 @@
     }
 
     .banner {
-        flex-flow: row wrap;
         margin: 0;
-    }
-
-    .caption-container {
-        flex-basis: 250px;
-        border: red solid;
-        position: relative;
-    }
-
-    .caption-img-container {
-        flex-basis: 20px;
-        border: yellow solid;
     }
 }
 
 @media screen and (max-width: 1290px) {
 
-    .caption-img-container img {
-        width: 650px;
+    .banner {
+        margin: 0;
+    }
+
+    .caption-container {
+     
+    }
+
+    .caption-img-container {
+  
     }
 
 
