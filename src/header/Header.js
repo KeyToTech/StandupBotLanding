@@ -31,17 +31,19 @@ class Header extends Component {
                         </ul>
                     </nav>
                 </div>
-                <div className="banner">
-                    <div className="caption-container">
-                        <div className="caption">
-                            <div className="caption-tf">Firs ever amazing thing</div>
-                            <h1 className="caption-tt">The app that build for your manegment</h1>
-                            <div className="caption-tm">Made for your everyday work without update&costing</div>
+                <div className='row'>
+                    <div className="banner">
+                        <div className="caption-container">
+                            <div className="caption">
+                                <div className="caption-tf">Firs ever amazing thing</div>
+                                <h1 className="caption-tt">The app that build for your manegment</h1>
+                                <div className="caption-tm">Made for your everyday work without update&costing</div>
+                            </div>
+                            <a href="#" className="button-caption">Get Started For Free</a>
                         </div>
-                        <a href="#" className="button-caption">Get Started For Free</a>
-                    </div>
-                    <div className="caption-img-container">
-                        <img src={imgHeader} alt="img" />
+                        <div className="caption-img-container">
+                            <img src={imgHeader} alt="img" />
+                        </div>
                     </div>
                 </div>
             </header>
