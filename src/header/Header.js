@@ -31,7 +31,7 @@ class Header extends Component {
                         </ul>
                     </nav>
                 </div>
-                <div className='row'>
+                <div className='row-header'>
                     <div className="banner">
                         <div className="caption-container">
                             <div className="caption">
