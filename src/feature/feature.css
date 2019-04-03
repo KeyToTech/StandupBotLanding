@@ -25,7 +25,6 @@
     align-items: center;
     box-shadow: 0 67px 114px rgba(0, 0, 0, 0.08);
     background-color: #ffffff;
-    
 }
 
 .icon {
@@ -51,4 +50,56 @@
     margin-top: 25px;
     color: #757575;
     font-size: 16px;
+}
+
+
+@media screen and (max-width: 1800px) {
+
+    .section-feature {
+        max-width: 1020px;
+    }
+    
+    .wrap-col-items {
+        flex-wrap: wrap;
+    }
+    
+    .col-item {
+        height: 300px;
+        width: 320px;
+    }
+    
+    .icon {
+        height: 70px;
+        width: 70px;
+    }
+    
+    .col-t {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    
+    .col-desc {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+
+    .section-feature {
+        height: auto;
+        width: 100%;
+    }
+
+    .wrap-col-items {
+        height: auto;
+        width: 100%;
+        justify-content: inherit;
+    }
+
+    .col-item {
+        max-width: 330px;
+        flex-basis: 360px;
+        flex-grow: 1;
+        margin: 10px;
+    }
 }

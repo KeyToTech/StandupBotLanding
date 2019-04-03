@@ -19,7 +19,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Feature />
-        <AboutCt />
+        {/* <AboutCt />
         <AboutMg />
         <FeatoreApp />
         <Testimonial />
@@ -28,7 +28,7 @@ class App extends Component {
         <Team />
         <ContactUs />
         <Question />
-        <Footer />
+        <Footer /> */}
       </div>
     );
   }
