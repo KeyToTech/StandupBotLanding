@@ -1,4 +1,3 @@
-
 .sn-ab-mg {
     height: 650px;
     width: 1170px;
@@ -25,7 +24,7 @@
 
 .mg-desc {
     font-family: 'Lato', sans-serif;
-    color: #757575;  
+    color: #757575;
     font-size: 16px;
     line-height: 30px;
     font-weight: 400;
@@ -38,7 +37,7 @@
     padding: 30px 58px;
     border-radius: 5px;
     background-image: linear-gradient(to left, #a12299 0%, #d13a75 50%, #d23a74 51%, #f96834 99%, #f96834 100%);
-    color:#ffffff;
+    color: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -50,5 +49,92 @@
     background: #ffffff;
     color: #d13a75;
     border: #d13a75 solid;
- }
- 
+}
+
+@media screen and (max-width: 1800px) {
+    .sn-ab-mg {
+        height: 550px;
+        justify-content: center;
+    }
+    .wrap-img-ab-mg {
+        margin-left: 130px;
+    }
+    .img-ab-mg {
+        width: 440px;
+    }
+    .wrap-content-mg {
+        height: 330px;
+        width: 450px;
+    }
+    .mg-t {
+        width: 400px;
+        margin-top: 35px;
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .mg-desc {
+        font-size: 12px;
+        line-height: 23px;
+        margin-top: 34px;
+        margin-bottom: 40px;
+    }
+    .mg-button {
+        padding: 17px 38px;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+    .mg-button:hover {
+        text-decoration: none;
+        background: #ffffff;
+        color: #d13a75;
+        border: #d13a75 solid;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .sn-ab-mg {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .sn-ab-mg {
+        height: auto;
+        justify-content: space-between;
+        padding: 100px 0 100px 0;
+    }
+    .wrap-img-ab-mg {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 915px) {
+    .sn-ab-mg {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .wrap-content-mg {
+        height: auto;
+        width: 90%;
+        margin-top: 50px;
+    }
+    .mg-t {
+        width: 100%;
+    }
+    .wrap-img-ab-mg {
+        height: auto;
+        margin-left: 0;
+        max-width: 90%;
+    }
+    .img-ab-mg {
+        width: 100%;
+    }
+}

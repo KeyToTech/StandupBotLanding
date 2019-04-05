@@ -12,29 +12,26 @@ class Header extends Component {
             <header className="menu-bar">
 
                 <div className="background-header">
-                     <img src={bg_first} alt="bg" className="bg-first" />
-                     <img src={bg_second} alt="bg" className="bg-second" />
+                    <img src={bg_first} alt="bg" className="bg-first" />
+                    <img src={bg_second} alt="bg" className="bg-second" />
                 </div>
 
                 <div className="container-header-nav">
-                    <div className="row">
+                    <nav className="nav-container">
                         <div className="logo-container">
-                            <img src={logo} alt="logo" />
+                            <img src={logo} alt="logo" className="logo-header" />
                         </div>
-                        <div className="menu-container">
-                            <nav className="nav-container">
-                                <ul className="menu">
-                                    <li className="menu-items"><a className="item-nav" href="#">Home</a></li>
-                                    <li className="menu-items"><a className="item-nav" href="#">Features</a></li>
-                                    <li className="menu-items"><a className="item-nav" href="#">pricing</a></li>
-                                    <li className="menu-items"><a className="item-nav" href="#">Team</a></li>
-                                    <li className="menu-items"><a className="item-nav" href="#">Contact</a></li>
-                                    <li className="menu-items"><a className="active" href="#">Login</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
+                        <ul className="menu">
+                            <li className="menu-items"><a className="item-nav" href="#">Home</a></li>
+                            <li className="menu-items"><a className="item-nav" href="#">Features</a></li>
+                            <li className="menu-items"><a className="item-nav" href="#">pricing</a></li>
+                            <li className="menu-items"><a className="item-nav" href="#">Team</a></li>
+                            <li className="menu-items"><a className="item-nav" href="#">Contact</a></li>
+                            <li className="menu-items"><a className="active" href="#">Login</a></li>
+                        </ul>
+                    </nav>
                 </div>
+
                 <div className="banner">
                     <div className="caption-container">
                         <div className="caption">
@@ -42,12 +39,15 @@ class Header extends Component {
                             <h1 className="caption-tt">The app that build for your manegment</h1>
                             <div className="caption-tm">Made for your everyday work without update&costing</div>
                         </div>
-                        <a href="#" className="button-caption">Get Started For Free</a>
+                        <div className="wrap-button-header">
+                            <a href="#" className="button-caption">Get Started For Free</a>
+                        </div>
                     </div>
                     <div className="caption-img-container">
-                        <img src={imgHeader} alt="img"/>
+                        <img src={imgHeader} alt="img" className="img-header" />
                     </div>
                 </div>
+
             </header>
         );
     }

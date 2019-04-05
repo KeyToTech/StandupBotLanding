@@ -21,14 +21,14 @@ class App extends Component {
         <Feature />
         <AboutCt />
         <AboutMg />
-        <FeatoreApp />
+        {/* <FeatoreApp />
         <Testimonial />
         <Video />
         <Pricing />
         <Team />
         <ContactUs />
         <Question />
-        <Footer />
+        <Footer /> */}
       </div>
     );
   }
