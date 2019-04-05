@@ -5,17 +5,14 @@ import bg_first from '../image/header/bg.png';
 import bg_second from '../image/header/bg_second.png';
 import imgHeader from '../image/header/img.png';
 
-
 class Header extends Component {
     render() {
         return (
             <header className="menu-bar">
-
                 <div className="background-header">
                     <img src={bg_first} alt="bg" className="bg-first" />
                     <img src={bg_second} alt="bg" className="bg-second" />
                 </div>
-
                 <div className="container-header-nav">
                     <nav className="nav-container">
                         <div className="logo-container">
@@ -31,7 +28,6 @@ class Header extends Component {
                         </ul>
                     </nav>
                 </div>
-
                 <div className="banner">
                     <div className="caption-container">
                         <div className="caption">
@@ -47,10 +43,8 @@ class Header extends Component {
                         <img src={imgHeader} alt="img" className="img-header" />
                     </div>
                 </div>
-
             </header>
         );
     }
 }
-
 export default Header;

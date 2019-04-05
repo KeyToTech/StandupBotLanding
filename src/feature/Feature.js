@@ -4,8 +4,7 @@ import icon1 from '../image/feature/icon-1.png';
 import icon2 from '../image/feature/icon-2.png';
 import icon3 from '../image/feature/icon-3.png';
 
-
-class Header extends Component {
+class Feature extends Component {
     render() {
         return (
             <div className="section-feature">
@@ -37,4 +36,4 @@ class Header extends Component {
     }
 }
 
-export default Header;
+export default Feature;

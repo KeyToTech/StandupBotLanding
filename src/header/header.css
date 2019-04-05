@@ -215,6 +215,9 @@
 }
 
 @media screen and (max-width: 1300px) {
+    .container-header-nav {
+        padding: 0 20px;
+    }
     .banner {
         margin: 0 auto;
         margin-top: 70px;
