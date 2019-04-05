@@ -1,25 +1,26 @@
 .section-feature {
+    border: red solid;
     z-index: 10;
-    height: 550px;
-    width: 1140px;
+    max-width: 1160px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 150px 0;
 }
 
 .wrap-col-items {
-    height: 345px;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
     text-align: center;
 }
 
 .col-item {
-    height: 343px;
+    height: calc(330px + (343 - 330) * ((100vw - 768px) / (1900 - 768)));
     width: 360px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,8 +29,8 @@
 }
 
 .icon {
-    height: 100px;
-    width: 100px;
+    height: auto;
+    width: calc(70px + (100 - 70) * ((100vw - 768px) / (1900 - 768)));
     margin-top: 40px;
 }
 
@@ -39,7 +40,7 @@
     font-weight: 600;
     margin-top: 40px;
     color: #494949;
-    font-size: 24px;
+    font-size: calc(18px + (24 - 18) * ((100vw - 768px) / (1900 - 768)));
     line-height: 24px;
 }
 
@@ -49,57 +50,22 @@
     font-weight: 400;
     margin-top: 25px;
     color: #757575;
-    font-size: 16px;
+    font-size: calc(12px + (16 - 12) * ((100vw - 768px) / (1900 - 768)));;
 }
 
+@media screen and (max-width: 768px) {
 
-@media screen and (max-width: 1800px) {
-
-    .section-feature {
-        max-width: 1020px;
-    }
-    
-    .wrap-col-items {
-        flex-wrap: wrap;
-    }
-    
-    .col-item {
-        height: 300px;
-        width: 320px;
-    }
-    
     .icon {
-        height: 70px;
-        width: 70px;
+        width: calc(70px + (100 - 70) * ((100vw - 360px) / (768 - 360)));
     }
     
     .col-t {
-        font-size: 20px;
-        line-height: 20px;
+        font-size: calc(18px + (24 - 18) * ((100vw - 360px) / (768 - 360)));
     }
     
     .col-desc {
-        font-size: 12px;
+        font-size: calc(12px + (16 - 12) * ((100vw - 360px) / (768 - 360)));;
     }
+
 }
 
-@media screen and (max-width: 1170px) {
-
-    .section-feature {
-        height: auto;
-        width: 100%;
-    }
-
-    .wrap-col-items {
-        height: auto;
-        width: 100%;
-        justify-content: inherit;
-    }
-
-    .col-item {
-        max-width: 330px;
-        flex-basis: 360px;
-        flex-grow: 1;
-        margin: 10px;
-    }
-}
