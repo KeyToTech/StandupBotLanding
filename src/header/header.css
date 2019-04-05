@@ -19,13 +19,13 @@
 
 .bg-first {
     position: absolute;
-    left: 1025px;
+    left: calc(280px + (1024 - 280) * ((100vw - 1000px) / (1900 - 1000)));
     bottom: 270px;
 }
 
 .bg-second {
     position: absolute;
-    left: 600px;
+    left: calc(130px + (600 - 130) * ((100vw - 1000px) / (1900 - 1000)));
     bottom: -20px;
 }
 
@@ -208,7 +208,6 @@
         background: white;
         border-radius: 5px;
         font-size: calc(12px + (16 - 12) * ((100vw - 768px) / (1900 - 768)));
-        ;
         text-decoration: none;
         color: #c8337e;
         padding: 7px 27px;
@@ -232,60 +231,10 @@
     }
 }
 
-@media screen and (max-width: 1550px) {
-    .bg-first {
-        left: 725px;
-    }
-    .bg-second {
-        left: 400px;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    .bg-first {
-        left: 595px;
-    }
-    .bg-second {
-        left: 350px;
-    }
-}
-
-@media screen and (max-width: 1230px) {
-    .bg-first {
-        left: 530px;
-    }
-    .bg-second {
-        left: 320px;
-    }
-}
-
-@media screen and (max-width: 1160px) {
-    .menu-items .item-nav {
-        font-size: 16px;
-        text-decoration: none;
-        color: rgb(117, 117, 117);
-        font-family: 'Poppins' sans-serif;
-    }
-    .active {
-        border: 1px rgb(117, 117, 117) solid;
-        border-radius: 7px;
-        color: rgb(117, 117, 117);
-    }
-    .active:hover {
-        background: rgb(117, 117, 117);
-        border-radius: 7px;
-        color: #f5e8e7;
-    }
+@media screen and (max-width: 900px) {
     .bg-first {
         display: none;
-        left: 495px;
     }
-    .bg-second {
-        left: 60px;
-    }
-}
-
-@media screen and (max-width: 900px) {
     .nav-container {
         height: 150px;
         margin: 0;
@@ -293,6 +242,23 @@
     }
     .menu {
         justify-content: center;
+    }
+    .menu-items .item-nav {
+        font-size: 16px;
+        text-decoration: none;
+        color: rgb(74, 74, 74);
+        font-family: 'Poppins' sans-serif;
+    }
+    .active {
+        border: 1px rgb(74, 74, 74) solid;
+        border-radius: 7px;
+        color: rgb(74, 74, 74);
+    }
+    .active:hover {
+        background:rgb(74, 74, 74);
+        border: 1px rgb(74, 74, 74) solid;
+        border-radius: 7px;
+        color: #f5e8e7;
     }
 }
 
