@@ -156,15 +156,4 @@
     .wrap-content-ct {
         width: 90%;
     }
-    .ct-text {
-        font-size: calc(25px + (30 - 27) * ((100vw - 360px) / (768 - 360)));
-    }
-    .ct-desc {
-        font-size: calc(12px + (14 - 12) * ((100vw - 360px) / (768 - 360)));
-    }
-    .ct-button {
-        padding: 17px 38px;
-        border-radius: 5px;
-        font-size: 12px;
-    }
 }
