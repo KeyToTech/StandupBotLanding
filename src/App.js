@@ -24,8 +24,8 @@ class App extends Component {
         <FeatoreApp />
         <Testimonial />
         <Video />
-        {/* <Pricing />
-        <Team />
+        <Pricing />
+        {/* <Team />
         <ContactUs />
         <Question />
         <Footer /> */}

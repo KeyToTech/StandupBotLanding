@@ -3,7 +3,6 @@ import '../section-pricing/pricing.css';
 import bg from '../image/section-pricing/bg_.png';
 
 const wrapContent = [
-
     {
         pList: "Primary",
         price: "$150",
@@ -37,7 +36,7 @@ const col = wrapContent.map((table) =>
         <div className="wrap-price-list">
             <div className="price-list">{table.pList}</div>
             <div className="price-container">
-               <div className="price">{table.price}</div>/Month
+                <div className="price">{table.price}</div>/Month
             </div>
             <div className="space">{table.space}</div>
             <div className="support">{table.support}</div>
