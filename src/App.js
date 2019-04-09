@@ -23,8 +23,8 @@ class App extends Component {
         <AboutMg />
         <FeatoreApp />
         <Testimonial />
-        {/* <Video />
-        <Pricing />
+        <Video />
+        {/* <Pricing />
         <Team />
         <ContactUs />
         <Question />
