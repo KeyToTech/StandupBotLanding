@@ -112,6 +112,17 @@
         left: -150px;
         margin-left: 0;
     }
+    .player-container {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .player-container {
+        height: 120px;
+        width: 120px;
+    }
 }
 
 @media screen and (max-width: 480px) {
