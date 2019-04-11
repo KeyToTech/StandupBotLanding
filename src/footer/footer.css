@@ -39,6 +39,10 @@
     width: 310px;
 }
 
+.logo-container-footer img {
+    width: calc(120px + (210 - 120) * ((100vw - 768px) / (1900 - 768)));
+}
+
 .wrap-social {
     width: 210px;
     display: flex;
@@ -47,7 +51,7 @@
 }
 
 .develop-block h4 {
-    font-size: 14px;
+    font-size: calc(10px + (14 - 10) * ((100vw - 768px) / (1900 - 768)));
     font-family: "Lato";
     color: rgb(117, 117, 117);
     line-height: 1.714;
@@ -68,7 +72,6 @@
 }
 
 .btn-social:hover {
-    
     background-image: linear-gradient(to left, #a12299 0%, #d13a75 50%, #d23a74 51%, #f96834 99%, #f96834 100%);
     color: #ffffff;
 }
@@ -88,7 +91,7 @@
 }
 
 .title {
-    font-size: 16px;
+    font-size: calc(12px + (16 - 12) * ((100vw - 768px) / (1900 - 768)));
     font-family: "Poppins";
     color: rgb(73, 73, 73);
     font-weight: bold;
@@ -104,15 +107,100 @@
 
 .feature {
     text-decoration: none;
-    font-size: 14px;
+    font-size: calc(10px + (14 - 10) * ((100vw - 768px) / (1900 - 768)));
     font-family: "Lato";
     color: rgb(117, 117, 117);
     text-align: left;
     margin: 0;
     padding: 0;
 }
-  
+
 .feature:hover {
     text-decoration: none;
     color: rgb(73, 73, 73);
+}
+
+@media screen and (max-width: 1700px) {
+    .footer-bg-first {
+        left: -1050px;
+    }
+    .footer-bg-second {
+        left: -1250px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .footer-bg-first {
+        left: -1150px;
+    }
+}
+
+@media screen and (max-width: 1366px) {}
+
+@media screen and (max-width: 1280px) {
+    .footer-bg-first {
+        display: none;
+    }
+    .container-footer {
+        flex-wrap: wrap;
+    }
+    .container-social {
+        flex-grow: 1;
+        width: 235px;
+    }
+    .wrap-content-footer {
+        flex-grow: 1;
+        width: 517px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container-features {
+        height: 210px;
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-section {
+        height: auto;
+    }
+    .container-social {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo-container-footer img {
+        width: calc(120px + (210 - 120) * ((100vw - 360px) / (768 - 360)));
+    }
+    .develop-block h4 {
+        font-size: calc(10px + (14 - 10) * ((100vw - 360px) / (768 - 360)));
+    }
+    .wrap-content-footer {
+        width: 90%;
+        margin-top: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+       
+    }
+    .container-features {
+        height: 190px;
+        width: 150px;
+        margin: 10px;
+    }
+    .title {
+        font-size: calc(12px + (16 - 12) * ((100vw - 360px) / (768 - 360)));
+        text-align: center;
+    }
+    .feature {
+        font-size: calc(10px + (14 - 10) * ((100vw - 360px) / (768 - 360)));
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container-features {
+        height: 170px;
+    }
 }
