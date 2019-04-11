@@ -6,9 +6,7 @@ import Form from '../section-contact-us/form/Form';
 const ContactUs = () => (
 
     <div className="section-contact">
-        <div className="bg-contact">
-            <img src={bg} alt="bg" className="bg-con-img" />
-        </div>
+        <img src={bg} alt="bg" className="bg-contact" />
         <Form>
             <div className="container-context-form">
                 <div className="tx-p">Contact Us</div>
