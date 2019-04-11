@@ -28,7 +28,7 @@ class App extends Component {
         <Team />
         <ContactUs />
         <Question />
-        {/* <Footer /> */}
+        <Footer />
       </div>
     );
   }
