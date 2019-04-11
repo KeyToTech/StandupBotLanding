@@ -10,9 +10,6 @@ class Question extends Component {
 
         this.state = {
             accordion: [true, false, false],
-            // { open: false },
-            // { open: false },
-
         };
     }
 
@@ -30,8 +27,6 @@ class Question extends Component {
 
     render() {
         const { open } = this.state;
-        // const { openel2 } = this.state.collapse[1].open;
-        // const { openel3 } = this.state.collapse[2].open;
 
         return (
             <div className="section-question">
