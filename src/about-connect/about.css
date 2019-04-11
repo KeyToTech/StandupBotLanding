@@ -17,21 +17,13 @@
 
 .ct-text {
     margin-top: 35px;
-    font-family: 'Poppins', sans-serif;
-    color: #494949;
-    font-size: calc(27px + (36 - 27) * ((100vw - 768px) / (1900 - 768)));
-    font-weight: 700;
-    line-height: 54px;
+    text-align: left;
 }
 
 .ct-desc {
-    font-family: 'Lato', sans-serif;
-    color: #757575;
-    font-size: calc(12px + (16 - 12) * ((100vw - 768px) / (1900 - 768)));
-    line-height: 30px;
-    font-weight: 400;
     margin-top: 44px;
     margin-bottom: 60px;
+    text-align: left;
 }
 
 .ct-button {

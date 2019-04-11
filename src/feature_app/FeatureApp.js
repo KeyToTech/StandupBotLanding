@@ -58,15 +58,15 @@ const col = wrapContent.map((table) =>
     </div>
 );
 
-const FeatureApp = () => (
+const FeatureApp = (props) => (
     <div className="feature-bar">
         <div className="background-feature">
             <img src={bg} className="bg" alt="bg" />
         </div>
         <div className="wrap-feature-app">
             <div className="container-context-app">
-                <div className="tx-f-a">Why everybody choose this app</div>
-                <div className="desct-f-a">Innovative solutions with the best.  Incididunt dolor sit amet,
+                <div style={props.style.Text.title} className="tx-f-a">Why everybody choose this app</div>
+                <div style={props.style.Text.description} className="desct-f-a">Innovative solutions with the best.  Incididunt dolor sit amet,
                 consectetur adipiscing elitsed tempor  vel metus scelerisque ante sollicitudin. </div>
             </div>
             <div className="container-features-choose">

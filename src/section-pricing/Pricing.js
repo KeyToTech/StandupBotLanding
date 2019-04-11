@@ -47,15 +47,15 @@ const col = wrapContent.map((table) =>
     </div>
 )
 
-const Pricing = () => (
+const Pricing = (props) => (
     <div className="section-pricing">
         <div className="background-pricing">
             <img src={bg} className="bg" alt="bg" />
         </div>
         <div className="wrap-pricing">
             <div className="container-context-pricing">
-                <div className="tx-p">Exclusive pricing plans</div>
-                <div className="desct-p">Innovative solutions with the best.  Incididunt dolor sit amet,
+                <div style={props.style.Text.title} className="tx-p">Exclusive pricing plans</div>
+                <div style={props.style.Text.description} className="desct-p">Innovative solutions with the best.  Incididunt dolor sit amet,
                 consectetur adipiscing elitsed tempor  vel metus scelerisque ante sollicitudin. </div>
             </div>
             <div className="container-pricing">

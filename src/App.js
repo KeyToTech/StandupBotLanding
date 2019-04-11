@@ -14,19 +14,42 @@ import Question from './question-section/Question';
 import Footer from './footer/Footer.js';
 
 class App extends Component {
+
+  style = {
+    Text: {
+      title: {
+        height: '91px',
+        width: '80%',
+        color: '#494949',
+        fontFamily: 'Poppins',
+        fontSize: 'calc(25px + (36 - 25) * ((100vw - 768px) / (1900 - 768)))',
+        fontWeight: '700',
+        lineHeight: '54px',
+      },
+      description: {
+        width: '100%',
+        color: '#757575',
+        fontFamily: 'Lato',
+        fontSize: 'calc(12px + (16 - 12) * ((100vw - 768px) / (1900 - 768)))',
+        fontWeight: '400',
+        lineHeight: '30px',
+      }
+    }
+  }
+
   render() {
     return (
       <div className="App">
         <Header />
         <Feature />
-        <AboutCt />
+        <AboutCt style={this.style} />
         <AboutMg />
-        <FeatoreApp />
+        <FeatoreApp style={this.style} />
         <Testimonial />
         <Video />
-        <Pricing />
-        <Team />
-        <ContactUs />
+        <Pricing style={this.style} />
+        <Team style={this.style} />
+        <ContactUs style={this.style} />
         {/* <Question />
         <Footer /> */}
       </div>
