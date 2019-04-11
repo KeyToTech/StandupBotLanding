@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     margin-top: 90px;
+    margin-bottom: 150px;
 }
 
 .bg-contact {
@@ -32,39 +33,30 @@
     }
 }
 
-@media screen and (max-width: 1280px) {
- 
-}
-
 @media screen and (max-width: 1024px) {
     .section-contact {
-        height: 551px;
+        height: 651px;
+        margin-top: 200px;
     }
     .bg-contact {
-        width: 731px;
-        margin-left: -365.5px;
+        width: 1400px;
+        top: -210px;
+        left: -130px;
+        margin-left: 0;
+        transform: rotate(10deg)
     }
 }
 
 @media screen and (max-width: 768px) {
     .section-contact {
-        height: 551px;
-        margin-top: 150px;
-        margin-bottom: 150px;
+        height: 600px;
+        margin-top: 220px;
     }
     .bg-contact {
-        width: 1200px;
-        top: -180px;
-        left: -150px;
-        margin-left: 0;
+        width: 1350px;
+        top: -220px;
     }
-}
-
-@media screen and (max-width: 480px) {
-    .bg-contact {
-        width: 1000px;
-        top: -120px;
-        left: -150px;
-        margin-left: 0;
+    .tx-p {
+        margin-bottom: 20px;
     }
 }
