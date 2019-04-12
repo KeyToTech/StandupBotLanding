@@ -51,7 +51,6 @@
     margin-left: -180px;
     height: 569px;
     width: 360px;
-    box-shadow: 0 67px 114px rgba(0, 0, 0, 0.08);
     background-color: #ffffff;
 }
 
@@ -277,6 +276,7 @@
     }
     .table-pricing {
         height: 400px;
+        z-index: 0;
     }
     .table-pricing:nth-child(2) {
         height: 400px;
@@ -285,7 +285,7 @@
         left: 0;
         margin-left: 0;
         margin: 10px;
-        z-index: inherit;
+        z-index: 0;
     }
     .table-pricing:nth-child(2) .wrap-price-list {
         margin-top: 10px;
