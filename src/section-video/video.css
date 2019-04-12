@@ -71,6 +71,10 @@
         width: 931px;
         margin-left: -465.5px;
     }
+    .player-container {
+        height: 150px;
+        width: 150px;
+    }
 }
 
 @media screen and (max-width: 1280px) {
@@ -83,6 +87,10 @@
     .bg-sn-v {
         width: 831px;
         margin-left: -415.5px;
+    }
+    .player-container {
+        height: 115px;
+        width: 115px;
     }
 }
 
