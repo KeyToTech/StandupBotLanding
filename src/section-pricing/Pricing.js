@@ -48,7 +48,7 @@ const col = wrapContent.map((table) =>
 )
 
 const Pricing = () => (
-    <div className="section-pricing">
+    <div id="pricing" className="section-pricing">
         <div className="background-pricing">
             <img src={bg} className="bg" alt="bg" />
         </div>

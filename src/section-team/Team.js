@@ -57,7 +57,7 @@ const Developer = wrapContainerDeveloper.map((container) =>
 );
 
 const Team = () => (
-    <div className="section-team">
+    <div id="team" className="section-team">
         <div className="container-context-team">
             <div className="tx-p">Meet the Team</div>
             <div className="desct-p">Innovative solutions with the best.  Incididunt dolor sit amet,

@@ -59,7 +59,7 @@ const col = wrapContent.map((table) =>
 );
 
 const FeatureApp = () => (
-    <div className="feature-bar">
+    <div id="features" className="feature-bar">
         <div className="background-feature">
             <img src={bg} className="bg" alt="bg" />
         </div>
