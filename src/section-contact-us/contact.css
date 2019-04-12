@@ -1,18 +1,19 @@
 .section-contact {
     height: 870px;
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
     position: relative;
     display: flex;
     align-items: center;
     margin-top: 90px;
+    margin-bottom: 150px;
 }
 
 .bg-contact {
     position: absolute;
     top: 0;
     left: 50%;
-    margin-left: -565px; 
+    margin-left: -565px;
     z-index: -1;
 }
 
@@ -20,4 +21,42 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media screen and (max-width: 1366px) {
+    .section-contact {
+        height: 703px;
+    }
+    .bg-contact {
+        width: 931px;
+        margin-left: -465.5px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .section-contact {
+        height: 651px;
+        margin-top: 200px;
+    }
+    .bg-contact {
+        width: 1400px;
+        top: -210px;
+        left: -130px;
+        margin-left: 0;
+        transform: rotate(10deg)
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section-contact {
+        height: 600px;
+        margin-top: 220px;
+    }
+    .bg-contact {
+        width: 1350px;
+        top: -220px;
+    }
+    .tx-p {
+        margin-bottom: 20px;
+    }
 }

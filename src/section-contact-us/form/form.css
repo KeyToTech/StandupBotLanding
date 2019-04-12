@@ -6,7 +6,6 @@
     background: white;
     box-shadow: 0px 67px 114px 0px rgba(0, 0, 0, 0.08);
     box-sizing: content-box;
-    /* padding: 60px 195px 60px 195px; */
 }
 
 .content-form {
@@ -15,6 +14,10 @@
 
 form {
     margin-top: 80px;
+}
+
+.wrapper {
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,26 +32,27 @@ form {
 }
 
 input {
-    width: 260px;
     padding: 20px 15px;
     outline: none;
     border-radius: 5px;
     background: #f4f4fd;
     border: none;
-   
 }
 
 .input-name {
     width: 285px;
+    font-size: calc(12px + (16 - 12) * ((100vw - 768px) / (1920 - 768)));
 }
 
 .input-email {
     width: 285px;
+    font-size: calc(12px + (16 - 12) * ((100vw - 768px) / (1920 - 768)));
 }
 
 .subject {
     outline: none;
     width: 600px;
+    font-size: calc(12px + (16 - 12) * ((100vw - 768px) / (1920 - 768)));
 }
 
 .message {
@@ -64,12 +68,18 @@ input {
     color: #848484;
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
+    font-size: calc(12px + (16 - 12) * ((100vw - 768px) / (1920 - 768)));
+}
+
+.createAccount {
+    width: 100%;
+    margin-left: 340px;
 }
 
 .createAccount button {
-    background-image: -moz-linear-gradient( 180deg, rgb(161,34,153) 0%, rgb(210,58,116) 51%, rgb(249,104,52) 99%);
-    background-image: -webkit-linear-gradient( 180deg, rgb(161,34,153) 0%, rgb(210,58,116) 51%, rgb(249,104,52) 99%);
-    background-image: -ms-linear-gradient( 180deg, rgb(161,34,153) 0%, rgb(210,58,116) 51%, rgb(249,104,52) 99%);
+    background-image: -moz-linear-gradient( 180deg, rgb(161, 34, 153) 0%, rgb(210, 58, 116) 51%, rgb(249, 104, 52) 99%);
+    background-image: -webkit-linear-gradient( 180deg, rgb(161, 34, 153) 0%, rgb(210, 58, 116) 51%, rgb(249, 104, 52) 99%);
+    background-image: -ms-linear-gradient( 180deg, rgb(161, 34, 153) 0%, rgb(210, 58, 116) 51%, rgb(249, 104, 52) 99%);
     width: 155px;
     height: 51px;
     color: #fff;
@@ -82,6 +92,90 @@ input {
     color: #d23a75;
     background: white;
     border: #d23a75 solid;
-
 }
-  
+
+@media screen and (max-width: 1366px) {
+    .form-container {
+        height: 580px;
+        width: 695px;
+    }
+    form {
+        margin-top: 20px;
+    }
+    .wrap-name {
+        height: 50px;
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    input {
+        padding: 10px 15px;
+    }
+    .createAccount {
+        margin-left: 100px;
+    }    
+}
+
+@media screen and (max-width: 1280px) {}
+
+@media screen and (max-width: 1024px) {
+    .form-container {
+        height: 650px;
+        width: 725px;
+    }
+    .createAccount {
+        margin-left: 120px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content-form {
+        margin-top: 10px;
+    }
+    .wrapper {
+        max-width: 600px;
+    }
+    .form-container {
+        height: 100%;
+        width: 90%;
+        padding: 10px;
+    }
+    .wrap-name {
+        height: 110px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .input-name {
+        width: 100%;
+        font-size: calc(12px + (16 - 12) * ((100vw - 360px) / (768 - 360)));
+    }
+    .input-email {
+        width: 100%;
+        font-size: calc(12px + (16 - 12) * ((100vw - 360px) / (768 - 360)));
+    }
+    .wrap-subject {
+        width: 100%;
+    }
+    .subject {
+        width: 100%;
+        font-size: calc(12px + (16 - 12) * ((100vw - 360px) / (768 - 360)));
+    }
+    .wrap-message {
+        width: 100%;
+    }
+    .message {
+        width: 100%;
+        height: 100px;
+        font-size: calc(12px + (16 - 12) * ((100vw - 360px) / (768 - 360)));
+    }
+    .createAccount {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 480px) {}

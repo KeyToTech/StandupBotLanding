@@ -46,7 +46,7 @@ const Footer = () => (
 
         <div className="container-footer">
             <div className="container-social">
-                <div className="logo-container">
+                <div className="logo-container-footer">
                     <img src={logo} alt="logo" />
                 </div>
 
