@@ -63,7 +63,7 @@ const FeatureApp = () => (
         <div className="background-feature">
             <img src={bg} className="bg" alt="bg" />
         </div>
-        <div className="wrap-feature-app">
+        <div id="features" className="wrap-feature-app">
             <div className="container-context-app">
                 <div className="tx-f-a">Why everybody choose this app</div>
                 <div className="desct-f-a">Innovative solutions with the best.  Incididunt dolor sit amet,

@@ -8,7 +8,7 @@ import imgHeader from '../image/header/img.png';
 class Header extends Component {
     render() {
         return (
-            <header className="menu-bar">
+            <header id="home" className="menu-bar">
                 <div className="background-header">
                     <img src={bg_first} alt="bg" className="bg-first" />
                     <img src={bg_second} alt="bg" className="bg-second" />
@@ -19,11 +19,11 @@ class Header extends Component {
                             <img src={logo} alt="logo" className="logo-header" />
                         </div>
                         <ul className="menu">
-                            <li className="menu-items"><a className="item-nav" href="#">Home</a></li>
-                            <li className="menu-items"><a className="item-nav" href="#">Features</a></li>
-                            <li className="menu-items"><a className="item-nav" href="#">pricing</a></li>
-                            <li className="menu-items"><a className="item-nav" href="#">Team</a></li>
-                            <li className="menu-items"><a className="item-nav" href="#">Contact</a></li>
+                            <li className="menu-items"><a className="item-nav" href="#home">Home</a></li>
+                            <li className="menu-items"><a className="item-nav" href="#features">Features</a></li>
+                            <li className="menu-items"><a className="item-nav" href="#pricing">pricing</a></li>
+                            <li className="menu-items"><a className="item-nav" href="#team">Team</a></li>
+                            <li className="menu-items"><a className="item-nav" href="#contact-us">Contact</a></li>
                             <li className="menu-items"><a className="active" href="#">Login</a></li>
                         </ul>
                     </nav>
