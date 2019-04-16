@@ -52,7 +52,7 @@ const Pricing = () => (
         <div className="background-pricing">
             <img src={bg} className="bg" alt="bg" />
         </div>
-        <div className="wrap-pricing">
+        <div id="pricing" className="wrap-pricing">
             <div className="container-context-pricing">
                 <div className="tx-p">Exclusive pricing plans</div>
                 <div className="desct-p">Innovative solutions with the best.  Incididunt dolor sit amet,
