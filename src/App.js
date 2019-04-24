@@ -25,7 +25,7 @@ class App extends Component {
         <Testimonial />
         <Video />
         <Pricing />
-        <Team />
+        {/* <Team /> */}
         <ContactUs />
         <Question />
         <Footer />
