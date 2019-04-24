@@ -57,7 +57,7 @@ const Footer = () => (
                     {Button(<i class="fab fa-instagram"></i>, "")}
                 </div>
                 <div className='develop-block'>
-                    <h4>© Copyrights 2019 Buxkit All rights reserved.</h4>
+                    <h4>© Copyrights 2019 KeyToTech. All rights reserved.</h4>
                 </div>
             </div>
 
