@@ -32,7 +32,7 @@ class Header extends Component {
                     <div className="caption-container">
                         <div className="caption">
                             <div className="caption-tf">Firs ever amazing thing</div>
-                            <h1 className="caption-tt">The app that build for your manegment</h1>
+                            <h1 className="caption-tt">Digital scrum master for your management</h1>
                             <div className="caption-tm">Made for your everyday work without update&costing</div>
                         </div>
                         <div className="wrap-button-header">
