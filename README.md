@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Standup bot landing page
+
+[![Hits-of-Code](https://hitsofcode.com/github/KeyToTech/StandupBotLanding)](https://hitsofcode.com/view/github/KeyToTech/StandupBotLanding)
+
 
 ## Available Scripts
 
